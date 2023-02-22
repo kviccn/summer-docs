@@ -8,7 +8,5 @@ export default defineUserConfig({
   head: [
     ['link', { rel: 'shortcut icon', type: 'image/x-icon', href: 'favicon.ico' }]
   ],
-  theme: defaultTheme({
-    logo: '/images/logo.jpg',
-  })
+  theme: defaultTheme({})
 })
